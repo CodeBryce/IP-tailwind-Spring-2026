@@ -3,6 +3,7 @@
 **Tailwind functions and styles used**
 
 **html.index**
+
 lg:grid-cols-4: Used in the main container to create the asymmetrical 4-column layout for the sidebar and content.
 lg:col-span-3: Used on the <main> tag to ensure the content area takes up three-quarters of the screen on large displays.
 flex flex-col: Used in the sidebar and header to stack elements vertically.
