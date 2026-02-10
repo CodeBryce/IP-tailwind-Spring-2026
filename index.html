@@ -3,98 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI & Audio: A Societal Impact Analysis</title>
+    <title>AI & Audio: A Societal Impact Study</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans">
+<body class="bg-slate-50 text-slate-800">
 
     <header class="header-banner">
-        <div class="container mx-auto">
-            <span class="breadcrumb">Academic Project // Internet Programming // 2026</span>
-            <h1 class="main-title">AI in Society: The Music Dimension</h1>
-            <p class="author">Lead Researcher: Bryce Davis (Music Disciplinary)</p>
+        <div class="container mx-auto px-6">
+            <span class="sub-header">Internet Programming // AI in Society // 2026</span>
+            <h1 class="main-title">How AI is used in the music industry</h1>
+            <p class="description">By Bryce Davis</p>
         </div>
     </header>
 
-    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-8 py-10 px-4">
+    <div class="container mx-auto px-6 py-12 flex flex-col lg:flex-row gap-12">
         
-        <aside class="sidebar">
+        <aside class="lg:w-1/4">
             <nav class="sticky-nav">
-                <h3 class="nav-label">Table of Contents</h3>
-                <ul class="nav-list">
+                <h3 class="nav-label">Research Index</h3>
+                <ul class="nav-links">
                     <li><a href="#abstract">01. Abstract</a></li>
-                    <li><a href="#impact">02. Societal Impact</a></li>
-                    <li><a href="#ethics">03. Ethical Framework</a></li>
-                    <li><a href="#design">04. Technical Design</a></li>
+                    <li><a href="#landscape">02. Modern Tooling</a></li>
+                    <li><a href="#impact">03. Impact Matrix</a></li>
+                    <li><a href="#ethics">04. Ethical Dilemma</a></li>
+                    <li><a href="#tech">05. Design Reflection</a></li>
                 </ul>
             </nav>
         </aside>
 
-        <main class="lg:col-span-3 space-y-12">
-            
-            <section id="abstract" class="content-block">
+        <main class="lg:w-3/4 space-y-12">
+
+            <section id="abstract" class="content-card">
                 <h2 class="section-title">01. Abstract</h2>
                 <p class="text-lead">
-                    Artificial Intelligence is fundamentally altering the music industry’s value chain. 
-                    While tools like Suno and Udio democratize creation, they simultaneously 
-                    challenge the concept of human authorship and "soul" in audio production.
+                    Artificial Intelligence has transitioned from an experimental curiosity to a core creative partner in the music industry. This study examines how these tools democratize creation for bedroom producers while simultaneously challenging traditional concepts of authorship and human "soul."
                 </p>
             </section>
 
-            <section id="impact" class="content-block">
-                <h2 class="section-title">02. Impact Matrix</h2>
-                <div class="overflow-x-auto">
+            <section id="landscape" class="content-card">
+                <h2 class="section-title">02. Uses of AI in music</h2>
+                <p class="mb-6">Modern music professionals leverage AI across the entire production cycle to unlock previously unimaginable creative possibilities:</p>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-cyan-700">Creation</h4>
+                        <p class="text-xs mt-2">Generators like <strong>Udio</strong> and <strong>Suno</strong> create full tracks with vocals and instruments from text prompts.</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-cyan-700">Engineering</h4>
+                        <p class="text-xs mt-2">Tools like <strong>Landr</strong> and <strong>iZotope Ozone</strong> provide AI-powered mastering that suggests professional-grade corrections.</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="font-bold text-cyan-700">Education</h4>
+                        <p class="text-xs mt-2"><strong>Moises</strong> allows for "stem separation," isolating vocals or drums from existing tracks for practice and analysis.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="impact" class="content-card">
+                <h2 class="section-title">03. Societal Impact Matrix</h2>
+                <div class="table-container">
                     <table class="data-table">
                         <thead>
                             <tr>
-                                <th>Field</th>
-                                <th>Positive (Optimization)</th>
-                                <th>Negative (Value Damage)</th>
+                                <th>Category</th>
+                                <th>Optimization (Positive)</th>
+                                <th>Value Damage (Negative)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><strong>Production</strong></td>
-                                <td>AI-assisted mastering & stem separation.</td>
-                                <td>Oversaturation of "slop" audio content.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Legal</strong></td>
-                                <td>New licensing models for AI training.</td>
-                                <td>Voice identity theft (cloning).</td>
+                                <td><strong>Accessibility</strong></td>
+                                <td>AI music generators act as collaborators, absorbing decades of theory to assist beginners.</td>
+                                <td>Flood of low-quality "spam" content; Spotify removed 75M tracks in 12 months.</td>
                             </tr>
                             <tr>
                                 <td><strong>Discovery</strong></td>
-                                <td>Hyper-personalized radio (WONY 2.0).</td>
-                                <td>Algorithmic bias and echo chambers.</td>
+                                <td>AI algorithms like "Discover Weekly" allow independent artists to reach global audiences without gatekeepers.</td>
+                                <td>Algorithmic bias may force artists to create for "the system" rather than for human expression.</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </section>
 
-            <section id="ethics" class="content-block">
-                <h2 class="section-title">03. The Ethical Dilemma</h2>
-                <div class="grid md:grid-cols-2 gap-6">
-                    <div class="card-plain">
-                        <h4>Identity vs. Data</h4>
-                        <p>Should a singer's vocal timbre be protected like a fingerprint? Current copyright laws are struggling to keep up with RVC (Retrieval-based Voice Conversion) technologies.</p>
+            <section id="ethics" class="content-card">
+                <h2 class="section-title">04. Ethical Concerns & Identity</h2>
+                <div class="space-y-6">
+                    <div class="border-l-4 border-cyan-500 pl-4">
+                        <h4 class="font-bold">The Deepfake Crisis</h4>
+                        <p class="text-sm">The viral track "Heart on My Sleeve" used AI to clone the voices of Drake and The Weeknd, demonstrating how easily a musician's sonic identity can be duplicated without consent.</p>
                     </div>
-                    <div class="card-plain border-l-4 border-cyan-500">
-                        <h4>Economic Shift</h4>
-                        <p>By 2028, it is estimated that 20% of library music for TV/Film will be AI-generated, potentially displacing thousands of entry-level composers.</p>
+                    <div class="border-l-4 border-slate-900 pl-4">
+                        <h4 class="font-bold">Creative Sovereignty</h4>
+                        <p class="text-sm">Artists like Holly Herndon and Grimes have pioneered using AI as a partner to generate new vocal effects, proving that AI can augment human talent rather than just replace it.</p>
                     </div>
                 </div>
             </section>
 
-            <section id="design" class="content-block bg-slate-100 p-8 rounded">
-                <h2 class="section-title">Design & Process</h2>
-                <p><strong>Tools:</strong> Built from scratch using Tailwind CSS (CDN) and internal CSS architecture. No JavaScript was used to ensure maximum performance and accessibility.</p>
-                <ul class="tailwind-list">
-                    <li>Utilized <code>lg:grid-cols-4</code> for the multi-column layout.</li>
-                    <li>Applied <code>sticky</code> positioning for the navigation.</li>
-                    <li>Designed custom <code>data-table</code> styles using Tailwind's border and padding tokens.</li>
+            <section id="tech" class="content-card bg-slate-50">
+                <h2 class="section-title">05. Design Reflection</h2>
+                <p class="mb-4"><strong>Design Strategy:</strong> I chose an informative dashboard layout to prioritize scannability and professional data presentation.</p>
+                <ul class="text-xs font-mono space-y-2 text-slate-600">
+                    <li>> Layout: Responsive asymmetrical grid (lg:grid-cols-4).</li>
+                    <li>> Tailwind Utilities: 20+ styles including sticky, backdrop-blur, and overflow-x-auto.</li>
+                    <li>> Iteration: Used AI to synthesize industry reports for high-value content.</li>
                 </ul>
             </section>
 
@@ -102,7 +115,7 @@
     </div>
 
     <footer class="site-footer">
-        <p>SUNY Oneonta // IP 2026 // The Groove Codec</p>
+        <p>SUNY Oneonta // IP 2026 // Bryce Davis</p>
     </footer>
 
 </body>
